@@ -90,3 +90,33 @@ bg black
 -   appearrance
     -   theme black
     -   auto hide the dock
+-   mouse & touchpad
+    -   speed to the max
+
+## mouse speed
+
+https://dev.to/bbavouzet/ubuntu-20-04-mouse-scroll-wheel-speed-536o
+
+1.
+
+```
+sudo apt install imwheel
+
+```
+
+fix annoying shortcuts buggy
+
+```sh
+# https://askubuntu.com/questions/1125726/how-to-disable-ctrl-shift-e-keybinding-from-showing-eeeee-and-loading-emoji-opti
+
+code /var/lib/snapd/desktop/applications/code_code.desktop
+code ~/.local/share/applications/code_code.desktop
+
+```
+
+## misc
+
+lauch `Language Support`, install missing stuff
+
+switch to XIM insead of ibus.
+xim is legacy, but at least it works.
